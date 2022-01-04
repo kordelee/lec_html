@@ -15,36 +15,28 @@
 	</ol>	
 	
 	<p>onclick event</p>
-	<form action="./formResult.html" name="form" method="post" enctype="multipart/form-data">
-		<input type="text" id="" name="name"><br>
-		<input type="button" id="" name="" value="제출">
+	<form action="./formResult.html" id="form" name="form" method="post" enctype="multipart/form-data">
+		<input type="text" id="name" name="name"><br>
+		<input type="button" id="button" name="" value="제출1" onclick="here();">
+		<input type="button" id="button2" name="" value="제출2">
 
 	</form>
-	<br>
-	<form action="./formResult2.html" name="form" method="post" enctype="multipart/form-data">
-		<input type="text" id="" name="name">
-		<input type="submit" id="" name="" value="제출">
-		<input type="reset" id="" name="" value="취소">
-	</form>	
-
-	<br><hr><br>
 	
-	<p>autocomplete 차이</p>
-	
-	<form action="./formResult.html" id="" name="" method="post" enctype="multipart/form-data">
-		<input type="text" id="" name="name2" placeholder="" value=""><br>
-		<input type="submit" id="" name="" value="제출">
-		<input type="reset" id="" name="" value="취소">
-	</form>
-	<br>
-	<form action="./formResult2.html" id="" name="" method="post" enctype="multipart/form-data" autocomplete="off">
-		<input type="text" id="" name="name2" placeholder="" value="" autocomplete="off">
-		<input type="submit" id="" name="" value="제출">
-		<input type="reset" id="" name="" value="취소">
-	</form>
 
 	<script type="text/javascript">
+		function here() {
+			alert("1");
+			document.getElementById('form').submit();
+			
+			//alert(document.getElementById('name').value);
+		}
 		
+		
+		document.getElementById('button2').addEventListener('click', function() {
+		    alert("2");
+		    document.getElementById('form').action = "./formResult2.html";
+		    document.getElementById('form').submit();
+		});
 	</script>
 </body>
 </html>
