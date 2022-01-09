@@ -8,21 +8,35 @@
 <body>
 
 	<form action="./formResult.html" id="form" name="form" method="get" enctype="multipart/form-data">
-	
+<!-- 		
+		<p>hidden</p>
 		<input type="hidden" id="seq" name="seq" value="장원영천재"><br>
-				
-		<input type="text" id="name" name="name" size="" maxlength="" placeholder="" value=""><br>
+		<hr>
 		
+		<p>text</p>
+		<input type="text" id="name" name="name"><br>
+		<input type="text" id="name" name="name" autofocus="autofocus"><br>
+		<input type="text" id="name" name="name" size=""><br>
+		<input type="text" id="name2" name="name2" maxlength=""><br>
+		<input type="text" id="name3" name="name3" placeholder=""><br>
+		<input type="text" id="name4" name="name4" value=""><br>
+		<hr>
 		
-			<input type="search" id="searchValue" name="searchValue" size="50" maxlength="30" placeholder="" value=""><br>
-			<!-- input text 와 달리 x 버튼이 생김 -->
+		<p>search</p>
+		<input type="search" id="searchValue" name="searchValue" size="50" maxlength="30" placeholder="" value=""><br>
+		<hr>
 		
-			<input type="url" id="url" name="url"><br>
-			<input type="tel" id="tel" name="tel"><br>
-			<input type="email" id="email" name="email"><br>
-			
+		<p>url, tel, email</p>
+		input text 와 달리 x 버튼이 생김
+		<input type="url" id="url" name="url"><br>
+		<input type="tel" id="tel" name="tel"><br>
+		<input type="email" id="email" name="email"><br>
+		<hr>
+		
+		<p>password</p>
 		<input type="password" id="password" name="password"><br>
 		<hr>
+		
 		<p>number</p>
 		<input type="number" id="number" name=""><br>
 		<input type="number" id="number2" name="" min="1"><br>
@@ -30,6 +44,7 @@
 		<input type="number" id="number4" name="" step="2"><br>
 		<input type="number" id="number5" name="" value="1"><br>
 		<hr>
+		
 		<p>range</p>
 		<input type="range" id="range" name=""><br>
 		<input type="range" id="range2" name="" min="1" size="100"><br>
@@ -37,60 +52,170 @@
 		<input type="range" id="range4" name="" step="2"><br>
 		<input type="range" id="range5" name="" value="3"><br>
 		<hr>
+		
 		<p>datetime</p>
 		<input type="datetime-local" id="datetime-local" name="datetime-local"><br>
-		<input type="datetime-local" id="datetime-local" name="datetime-local" value="2018-06-12T19:30:01"><br>
-		<input type="datetime-local" id="datetime-local" name="datetime-local" min="2020-01-01T00:00"><br>
-		<input type="datetime-local" id="datetime-local" name="datetime-local" max="2023-06-01T00:00"><br>
-		<input type="datetime-local" id="datetime-local" name="datetime-local" step="2"><br>
+		<input type="datetime-local" id="datetime-local2" name="datetime-local2" value="2018-06-12T19:30:01"><br>
+		<input type="datetime-local" id="datetime-local3" name="datetime-local3" min="2020-01-01T00:00"><br>
+		<input type="datetime-local" id="datetime-local4" name="datetime-local4" max="2023-06-01T00:00"><br>
+		<input type="datetime-local" id="datetime-local5" name="datetime-local5" step="2"><br>
+		
 		<hr>
 		<p>date</p>
 		<input type="date" id="date" name="date"><br>
-		<input type="date" id="date" name="date" value="2018-06-12"><br>
-		<input type="date" id="date" name="date" min="2018-06-12"><br>
-		<input type="date" id="date" name="date" max="2022-06-12"><br>
-		<input type="date" id="date" name="date" step=""><br>
+		<input type="date" id="date2" name="date2" value="2018-06-12"><br>
+		<input type="date" id="date3" name="date3" min="2018-06-12"><br>
+		<input type="date" id="date4" name="date4" max="2022-06-12"><br>
+		<input type="date" id="date5" name="date5" step=""><br>
+
+		<hr>
+		<p>month</p>		
 		<input type="month" id="month" name="month"><br>
-		<input type="month" id="month" name="month" value="2018-06"><br>
+		<input type="month" id="month2" name="month2" value="2018-06"><br>
+
+		<hr>
+		<p>week</p>		
 		<input type="week" id="week" name="week"><br>
-		<input type="week" id="week" name="week" value="2018-W18"><br>
+		<input type="week" id="week2" name="week2" value="2018-W18"><br>
+
+		<hr>
+		<p>time</p>		
 		<input type="time" id="time" name="time"><br>
-		<input type="time" id="time" name="time" value="12:12:12"><br>
+		<input type="time" id="time2" name="time2" value="11:12:12"><br>
 		
 		<hr>
-		<!-- 16진수 표시 -->
+		<p>color</p>	
+		16진수 표시
 		<input type="color" id="color" name="color"><br>
-		<input type="color" id="color" name="color" value="#00ff00"><br>
-		
-		<input type="checkbox" id="" name=""><br>
-		<input type="radio" id="" name=""><br>
-		<input type="file" id="" name=""><br>
-		<input type="submit" id="" name="전송"><br>
-		<input type="image" id="" name=""><br>
-		<input type="reset" id="" name=""><br>
-		<input type="button" id="" name="" value="누르세요"><br>
-		<br>
-		<br>
+		<input type="color" id="color2" name="color2" value="#00ff00"><br>
 
-		<input type="button" id="button2" name="" value="누르세요"><br>
-	</form>
+		<hr>
+		<p>checkbox</p>
+		<input type="checkbox" id="checkbox" name="checkbox">asd
+		<input type="checkbox" id="checkbox" name="checkbox" checked>asd
+		<input type="checkbox" id="checkbox" name="checkbox" value="wow">asd
+		<br>
+		<input type="checkbox" id="checkbox11" name="checkbox11">asd
+		<input type="checkbox" id="checkbox12" name="checkbox12">asdf
+		<input type="checkbox" id="checkbox13" name="checkbox13">asdf
+		<br>
+		<input type="checkbox" id="checkbox21" name="checkbox21" value="1">asd
+		<input type="checkbox" id="checkbox22" name="checkbox22" value="2">asdf
+		<input type="checkbox" id="checkbox23" name="checkbox23" value="3">asdf
 	
-	<form oninput="x.value=parseInt(a.value)" action="/examples/media/action_target.php" method="get">
-    여러분의 나이대를 골라보세요.<br>
-    <input type="range" id="a" name="ages" min="1" max="10" step="1" value="1">
-    <output name="x" for="a"></output><br>
-    <input type="submit">
-</form>
-	<script>
-		document.getElementById('button2').addEventListener('click', function() {
-			
-			alert("color :" +  document.getElementById('color').value);
-			
-	    
-		   document.getElementById('form').action = "./formResult2.html";
-		    document.getElementById('form').submit();
+		<hr>
+		<p>radio</p>			
+		<input type="radio" id="radio" name="radio">동의
+		<input type="radio" id="radio2" name="radio2">반대
+		<br>
+		<input type="radio" id="radio" name="radio">동의
+		<input type="radio" id="radio2" name="radio">반대
+		<br>
+		<input type="radio" id="radio" name="radio" value="1">동의
+		<input type="radio" id="radio2" name="radio" value="2">반대
+		<br>
+		<input type="radio" id="radio11" name="radio">
+		<input type="radio" id="radio12" name="radio">
+		<input type="radio" id="radio13" name="radio">
 
-		});	
-	</script>
+		<hr>
+		<p>file</p>
+		<input type="file" id="" name=""><br>
+		<input type="file" id="" name="" multiple><br>
+		<input type="file" id="" name="" multiple="multiple"><br>
+		<input type="file" id="" name="" accept=".pdf,.png"><br>
+
+		<hr>
+		<p>image</p>	
+		<input type="image" id="" name=""><br>
+		
+		<hr>
+		<p>submit</p>
+		<input type="submit" id="" name="전송"><br>
+		
+		<hr>
+		<p>reset</p>
+		<input type="reset" id="" name=""><br>
+		
+		<br>
+		<p>button</p>
+		<input type="button" id="button" name="" value="누르세요"><br>
+
+		
+		
+		<br>
+		<select multiple >
+			<optgroup label="aaa">
+				<option>1
+				<option>2
+				<option selected>3
+			</optgroup>
+			<optgroup label="bbb">
+				<option >1
+				<option>2
+				<option selected>3
+			</optgroup>
+		</select>
+
+		<br>
+		<textarea rows="" cols=""></textarea>
+		<br><textarea rows="10" cols="30" >adsfasd</textarea>
+		<br><textarea rows="10" cols="30" maxlength="10">adsfasd</textarea>
+		<br><textarea rows="10" cols="30" placeholder="10">adsfasd</textarea>
+
+		<br>
+		<input type="text" id="" name="" list="aaa">
+		<datalist id="aaa">
+			<option>장원영
+			<option>장동건
+			<option>장영심
+		</datalist>	
+-->
+		<br>
+		<label for="file">File progress:</label>
+		<progress id="file" max="50" value="10"> 10% </progress>
+	</form>
+
+		<br>
+		<form oninput="result.value = parseInt(num1.value) + parseInt(num2.value)">
+			<input type="number" id="a" name="num1">
+			<input type="number" id="b" name="num2">
+			<output name="result" for=""></output>
+		</form>
+
+		<br>	
+		
+		<input type="text" id="" name="" value="장원영" readonly>
+		
+		<input type="text" id="" name="" value="장원영" disabled>
+		
+		<input type="hidden" id="" name="" value="">
+		
+		
+
+
+	<br>
+	<form oninput="x.value=parseInt(a.value)" action="/examples/media/action_target.php" method="get">
+		여러분의 나이대를 골라보세요.<br>
+		<input type="range" id="a" name="ages" min="1" max="10" step="1" value="1">
+		<output name="x" for=""></output><br>
+		<input type="submit">
+	</form>
+
+<script>
+	document.getElementById('button').addEventListener('click', function() {
+		
+	alert("checkbox11 :" +  document.getElementById('checkbox11').value);
+	
+	var checkbox11Rt = document.getElementById('checkbox11').checked;
+	alert("checkbox11 is :" + checkbox11Rt);
+	
+//	return false;
+	
+	document.getElementById('form').action = "./formResult2.html";
+	document.getElementById('form').submit();
+
+	});	
+</script>
 </body>
 </html>
