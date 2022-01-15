@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<style type="text/css">
+
+		/* 하위 선택자 descendant */
+		/* 부모요소에 포함 됨 하위 요소가 모두 적용됨 */	
+ 		/* 제일 마지막 선택자에만 적용 됨 */
+/*  		
+		div ul li {
+			border : solid 1px red;
+		}
+ */
+ 
+		/* 자식 선택자 child */
+		/* 자식까지만 영향 */
+/*  		
+		div > ul { 
+			border : solid 1px red;
+		}
+ */	
+	
+		/* 인접 형제 선택자 adjacent */
+/* 		
+		h3 + p {
+			color: red;
+		}
+ */		
+		/* 형제 선택자 */
+		
+		h3 ~ ul {
+			color: red;		
+		}
+
+
+	</style>
+</head>
+<body>
+
+
+<div>
+	<h3>취미</h3>
+	<p>취미가 다양하다</p>
+	<p>다양다양하지 뭐든</p>
+	<ul>
+		<li>원영
+			<ul>
+				<li>코팅</li>
+				<li>자전거</li>
+			</ul>
+		</li>
+		
+		<li>지현
+			<ul>
+				<li>디자인</li>
+				<li>쇼핑</li>
+				<li>테니스</li>
+				<li>전시회</li>
+			</ul>
+		</li>
+	</ul>
+	
+	<ul>
+		<li>여기도 되나
+	</ul>
+</div>
+
+</body>
+</html>
+
