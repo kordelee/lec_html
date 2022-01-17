@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<style type="text/css">
+
+
+
+/* 
+all
+print
+screen
+tv
+aural
+braile
+handheld
+projection 
+tty
+embossed
+ */
+
+/* 
+and
+,
+only
+not
+ */
+ 
+
+/* 4개의 분기점 사용 */
+/* PC , 테블릿 가로 (1023px ~)*/ 
+@media screen and (min-width:1024px) { 
+	h3 {
+		color: red;
+	}
+} 
+
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media screen and (min-width:768px) and (max-width:1023px) { 
+	h3 {
+		color: blue;
+	}
+} 
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/ 
+@media screen and (min-width:480px) and (max-width:767px) {
+	h3 {
+		color: gray;
+	}
+} 
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/ 
+@media screen and (max-width:479px) {
+	h3 {
+		color: green;
+	}
+}		
+
+
+/* 3개의 분기점 사용 */
+/* PC (해상도 1024px)*/ 
+/* 
+@media screen and (min-width:1024px) {
+	h3 {
+		color: red;
+	}
+}
+ */
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+/* 
+@media screen and (min-width:768px) and (max-width:1023px) {
+	h3 {
+		color: red;
+	}
+} 
+ */
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+/* 
+@media screen and (max-width:767px) {
+	h3 {
+		color: red;
+	}
+}
+ */
+
+
+	</style>
+</head>
+<body>
+<!-- 
+미디어 쿼리 : css 모듈 중 하나
+미디어에 따라 사이트의 형태가 다르게 보이도록 css를 작성하는 방법
+
+미티어 쿼리 구문 : @media
+ 
+https://hleecaster.com/css-media-query/
+ 
+ -->
+ 
+ 
+ 
+<h3>미디어쿼리 테스트</h3>
+
+<!-- 모바일 퍼스트 -->
+
+</body>
+</html>
