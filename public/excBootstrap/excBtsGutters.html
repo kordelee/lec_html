@@ -11,9 +11,17 @@
     <title>Hello, world!</title>
 
 	<style type="text/css">
+/* 		.container {
+			border: 1px solid red;
+		}
+		
+		.container > div {
+			border: 1px solid blue;
+		}
+		
 		.container > div > div {
 			border: 1px solid black;
-		}
+		} */
 	</style>
   </head>
   <body>
@@ -21,17 +29,29 @@
     
     <!-- padding에 의해 생성되는 열 콘텐츠 사이의 간격입니다. -->
     
-   <div class="container px-4" style="border-color: red;">
-	  <div class="row gx-5" style="border-color: blue;">
-	    <div class="col">
-	     <div class="p-3 border bg-light">Custom column padding</div>
-	    </div>
-	    <div class="col">
-	      <div class="p-3 border bg-light">Custom column padding</div>
-	    </div>
-	  </div>
-	</div>
-   
+<div class="container">
+  <!-- <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3"> -->
+  <div class="row g-2">
+    <div class="col">
+      <div class="p-3 border bg-light">Row column</div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">Row column</div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">Row column</div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">Row column</div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">Row column</div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">Row column</div>
+    </div>
+  </div>
+</div>
    
     <!--  -->
 
